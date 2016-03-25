@@ -1,0 +1,35 @@
+		@charset "utf-8";
+		*{margin:0px;padding:0px;font-family: "微软雅黑";font-size:12px;}
+		html,body{width:100%;height:100%;overflow:hidden;}
+		body{background: url("412.jpg")  no-repeat;background-size:cover;}
+		a{font-size:12px;}
+		a:link{text-decoration:none;}
+		a:hover{text-decoration:underline;}
+		/*start login*/
+		.center{margin-left:35%;width: 400px;margin-top: 211px;border-radius: 10px;box-shadow: 1px 0px 3px -1px black;background-color: rgba(255,255,255,0.2);}
+		.center table{margin:0 auto;border-collapse: separate;border-spacing: 10px;}
+		.center h2{text-align: center;height: 40px;line-height: 40px;font-size: 22px;}
+		.center table tbody tr:nth-child(1) td{height: 34px;margin-top: 10px;font-size:16px;}
+		.center table tbody tr:nth-child(2) td{height: 34px;margin-top: 10px;font-size:16px;}
+		.center table tbody tr td input{height: 98%;font-size: 16px;box-shadow:  0 1px 3px rgba(0,0,0,0.2);}
+		#remname,#login{height: 87%;width: 15px;margin-left:48px;}
+		.center table tfoot tr td{padding-left:10px; height: 42px;}
+		.center table tfoot tr td input{width: 72px;height: 92%;margin-left: 40px;font-size: 16px;cursor:pointer;background-color: #27C9FF;border:1px solid  #27C9FF;box-shadow:  1px 1px 0px 0px #000;}
+		.center table tfoot tr td input:hover{background-color:rgba(39,201,255,0.2);border:1px solid  rgba(39,201,255,0.2);}
+		
+		.center:hover{-webkit-animation:dd .1s ease-in-out;}
+		@-webkit-keyframes dd{
+			0%,100%{margin-left:35%;}
+			
+			10%{margin-left:35%;}
+			20%{margin-left:34.5%;}
+			30%{margin-left:34.5%;}
+			40%{margin-left:35.5%;}
+			50%{margin-left:35.5%;}
+
+			60%{margin-left:35.5%;}
+			70%{margin-left:35.5%;}
+			80%{margin-left:35.5%;}
+			90%{margin-left:35.5%;}
+			}
+		/*end login*/
